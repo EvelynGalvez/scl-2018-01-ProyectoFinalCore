@@ -75,6 +75,7 @@ infoVisit.addEventListener('click', event => {
       tblUsersList.innerHTML = ''; // se evita la repeticion de la visita
 
       // aqui evaluamos la ruta y se imprime en HTML
+
       firebase
         .database()
         .ref('/zonaIf')
